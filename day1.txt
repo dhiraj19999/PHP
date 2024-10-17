@@ -1,0 +1,22 @@
+// SERVER SIDE SCRIPTING
+// PHP MASCOT=ELEPHENT
+//PHP IS AN OPEN SOURCE,INTERPRETED AND OBJECT ORINTED SERVER SIDE LANGUGE USED FOR WEB DEVELOPEMENT
+//PHP FEATURES
+// EMBEDED= PHP EMBDED WITH HTML
+// CONTROL= MORE CONTROLED LANGUAGE EASY TO CHANGE IN CODE 
+ LOOSELY TYPED LANGUAGE= NOT NEED TO DEFINE DATA TYPE ITS GET DEFINED DURING EXCUTION
+// BACKWARD COMPETIBILITY = EARYLIEAR VERSIONS OF PHP ARE ALSO SUPPORTED
+Lexical str in php=  the set of rules that govern how to write programs in that language
+php is an whitespace insensitive
+in php kewords like echo, print , for , if, while, class are not case sensititve means we can write Eacho and eacho are same but varibles are case sensititve
+Rules for PHP variables:
+
+A variable starts with the $ sign, followed by the name of the variable
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive ($age and $AGE are two different variables)
+we can't do like First-name but we can do First_Name
+A constant is an identifier (name) for a simple value. The value cannot be changed during the script.
+In PHP, var_dump() is a very useful function for debugging because it provides detailed information about a variable, including its type and value and size. It works for all types of variables, 
+including arrays and objects.
