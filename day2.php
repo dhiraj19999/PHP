@@ -44,6 +44,39 @@ $my_string = "Hello, World!";
 var_dump($my_string);// Output: string(13) "Hello, World!"
 $my_int = 42;
 var_dump($my_int);// output: int(42)
+
+
+$decimaln=324;
+$octal=0324;
+$hexan=0x45;
+echo "The decimal number is: " . $decimaln . "<br/>";
+echo "The octal number is: " . $octal . "<br/>";
+echo "The hexadecimal number is: " . $hexan . "<br/>";
+
+
+/ String
+$stringVar = "Hello, LPU student";
+echo $stringVar . "\n"; 
+
+// Integer
+$intVar = 42;
+echo $intVar . "\n"; 
+
+// Float
+$floatVar = 3.14159;
+echo $floatVar . "\n"; // 
+
+// Boolean
+$boolVar = true;
+echo $boolVar ? 'true' : 'false';
+
+
+$cars = array("Volvo", "BMW", "Toyota");
+
+
+
+define("defined", "just a defined constant",true);
+ const VAR = 'FOO'
 ?>
 
 
