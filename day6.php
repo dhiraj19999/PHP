@@ -29,3 +29,24 @@ false - Default. Reindexes the chunk numerically
 $cars=array("BMW"=>"550000","MERCEDES"=>"250000","CHEVROLET"=>"200000", "Maruti"=>"50000"); 
 print_r(array_chunk($cars,2));   
 ?>
+
+
+
+
+Change all keys in an array to uppercase:
+
+<?php
+$age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
+print_r(array_change_key_case($age,CASE_UPPER));
+?>
+Definition and Usage
+The array_change_key_case() function changes all keys in an array to lowercase or uppercase.
+
+Syntax
+array_change_key_case(array, case)
+Parameter Values
+Parameter	Description
+array	Required. Specifies the array to use
+case	Optional. Possible values:
+CASE_LOWER - Default value. Changes the keys to lowercase
+CASE_UPPER - Changes the keys to uppercase
