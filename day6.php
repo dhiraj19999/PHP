@@ -12,3 +12,20 @@ $length = count($colors);
 echo "\nLength of the array: " . $length;
 
 ?
+
+The array_chunk() function splits an array into chunks of new arrays.
+
+Syntax
+array_chunk(array, size, preserve_key)
+Parameter Values
+Parameter	Description
+array	Required. Specifies the array to use
+size	Required. An integer that specifies the size of each chunk
+preserve_key	Optional. Possible values:
+true - Preserves the keys
+false - Default. Reindexes the chunk numerically
+
+<?php    
+$cars=array("BMW"=>"550000","MERCEDES"=>"250000","CHEVROLET"=>"200000", "Maruti"=>"50000"); 
+print_r(array_chunk($cars,2));   
+?>
