@@ -129,3 +129,14 @@ The following example sorts an associative array in descending order, according 
 Example
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 krsort($age);
+
+
+PHP array_reverse() Function
+
+
+Return an array in the reverse order:
+
+<?php
+$a=array("a"=>"Volvo","b"=>"BMW","c"=>"Toyota");
+print_r(array_reverse($a));
+?>
