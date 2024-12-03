@@ -50,3 +50,24 @@ array	Required. Specifies the array to use
 case	Optional. Possible values:
 CASE_LOWER - Default value. Changes the keys to lowercase
 CASE_UPPER - Changes the keys to uppercase
+
+
+
+
+
+Print the information about some variables in a more human-readable way:
+
+<?php
+$a = array("red", "green", "blue");
+print_r($a);
+
+echo "<br>";
+
+$b = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+print_r($b);
+?>
+Definition and Usage
+The print_r() function prints the information about a variable in a more human-readable way.
+
+Syntax
+print_r(variable, return);
