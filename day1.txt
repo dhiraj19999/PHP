@@ -222,3 +222,6 @@ define("MESSAGE","Hello World !");
 const MESSAGE = "Hello World";
 echo MESSAGE;
  echo Constant("MESSAGE");
+
+
+A conditional statement in PHP is a way to control the flow of a program based on certain conditions. The "condition" is a boolean expression that evaluates to either true or false . If the condition is true, the code within the curly braces will be executed.
